@@ -49,3 +49,57 @@ At the conclusion of this project, the following deliverables will be provided:
 ### Interactive Dashboard: An interactive visualization tool displaying key insights on user behavior and engagement patterns.
 ### Presentation: A professional presentation for Bellabeat stakeholders, outlining strategic recommendations for product and marketing optimization.
 By addressing these questions and delivering actionable insights, this case study aims to empower Bellabeat to make data-driven decisions that enhance their product offerings and marketing strategies, ultimately contributing to their growth and success in the wellness technology market.
+
+## Prepare: Data Collection and Preparation
+### Overview
+The Prepare phase involves collecting, understanding, and preparing the dataset for analysis. In this case study, we use data from Bellabeat’s wellness devices, which track various health metrics such as daily activity, sleep patterns, heart rate, and calorie consumption. The purpose of this step is to ensure that the data is well-structured, accurate, and ready for the subsequent cleaning and analysis stages.
+
+### Data Sources
+The dataset consists of multiple CSV and Excel files that cover a wide range of wellness and activity metrics collected from Bellabeat users. Below is a summary of each data source:
+
+Daily Activity Data: Contains information on daily steps, active minutes, and total distance traveled.
+Sleep Data: Tracks users’ sleep duration and sleep quality metrics.
+Heart Rate Data: Records heart rate readings at different intervals.
+Calorie Data: Captures calorie burn details across various activities and time intervals.
+Weight and BMI Logs: Provides details on users’ weight, body mass index (BMI), and related metrics over time.
+### Data Understanding
+Each dataset includes different variables that provide insights into user behavior and wellness. Below is a summary of the key variables:
+
+Time-Based Variables:
+Date: The date on which the data was recorded.
+Time: The time interval for minute/hourly data (e.g., heart rate, calories, steps).
+Activity Variables:
+Steps: The number of steps taken in a day or minute/hour interval.
+Active Minutes: Time spent in various activity intensities (e.g., lightly active, fairly active, and very active).
+Calories Burned: Total calories burned per day or interval.
+Sleep Variables:
+Sleep Duration: Total time spent sleeping per day.
+Sleep Quality: Indicators such as REM sleep, deep sleep, and wake times.
+Health Metrics:
+Heart Rate: The user’s heart rate recorded at different time intervals.
+Weight and BMI: Users’ weight and body mass index over time.
+### Data Preparation Steps
+To ensure the data is ready for analysis, the following preparation steps were taken:
+
+Data Importation:
+
+All datasets were imported into the analysis environment (Excel, BigQuery Power BI).
+Initial exploratory analysis was performed to understand the structure and content of each dataset.
+Data Validation:
+
+Checked for missing values, inconsistencies, and anomalies across datasets.
+Verified the date and time formats for consistency, ensuring that all time-based variables were standardized.
+Data Integration:
+
+Merged datasets where necessary (e.g., merging daily activity data with sleep data) to create a comprehensive view of user behavior.
+Ensured proper alignment of time intervals when combining minute-level data with daily summaries.
+Data Documentation:
+
+Each dataset was documented to capture variable descriptions, units of measurement, and data types.
+Developed a data dictionary to ensure clarity and consistency throughout the analysis process.
+Data Limitations
+It is important to note the following limitations and considerations related to the dataset:
+
+Sample Size: The data represents only a subset of Bellabeat users, which may not be fully representative of the overall user base.
+Time Frame: The data covers a specific period; trends observed may be influenced by seasonality or other time-based factors.
+Data Integrity: Some missing values and inconsistencies were observed, particularly in the sleep and heart rate datasets. Strategies such as imputation or filtering may be required during the cleaning process.
