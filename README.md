@@ -103,3 +103,64 @@ It is important to note the following limitations and considerations related to 
 Sample Size: The data represents only a subset of Bellabeat users, which may not be fully representative of the overall user base.
 Time Frame: The data covers a specific period; trends observed may be influenced by seasonality or other time-based factors.
 Data Integrity: Some missing values and inconsistencies were observed, particularly in the sleep and heart rate datasets. Strategies such as imputation or filtering may be required during the cleaning process.
+
+## Clean/Process: Data Cleaning and Transformation
+### Overview
+The Clean/Process phase involves cleaning the datasets and preparing them for in-depth analysis. This step ensures data integrity, consistency, and accuracy, allowing for meaningful insights to be derived during the analysis phase. In this case study, multiple datasets related to user activity, sleep patterns, heart rate, and other wellness metrics have been cleaned and processed to establish a reliable foundation for analysis.
+
+### Cleaning and Transformation Steps
+Remove Duplicates:
+
+Checked each dataset for duplicate entries, particularly in time-based data (e.g., minute-level data) to avoid inflated results during analysis.
+Applied filters in Excel/Power Query to remove any repeated rows.
+
+Handle Missing Values:
+Identified and addressed missing values using the following strategies:
+Drop rows: Removed rows with missing values if they were minimal and did not significantly impact the dataset.
+Impute values: For essential metrics like sleep duration and heart rate, imputed missing values using appropriate statistical methods such as the mean, median, or forward-fill approach.
+Documented these methods to maintain transparency in the cleaning process.
+
+Standardize Date and Time Formats:
+Ensured all time-based variables (e.g., start_time, end_time, date) were standardized to a consistent format (e.g., YYYY-MM-DD HH:MM:SS).
+Converted columns to appropriate data types using Excel functions consistency.
+
+Data Transformation:
+Normalize Units: Converted units where necessary (e.g., steps per minute to steps per hour) to create consistency across datasets.
+Aggregate Data: Aggregated minute-level data into daily summaries for easier analysis of patterns over time, using functions such as GROUP BY in SQL.
+
+Create Calculated Fields: Added calculated fields, such as:
+Daily Active Minutes: Summed various intensity levels (light, moderate, high) to understand users’ total daily active time.
+Total Calories Burned: Combined different calorie sources (e.g., resting vs. active) to give a holistic view of daily calorie expenditure.
+These transformations helped streamline analysis and highlight key user behavior trends.
+
+Merge Datasets:
+Merged relevant datasets (e.g., daily activity with sleep and calorie data) to provide a comprehensive view of user health metrics.
+Ensured proper alignment of keys (e.g., user_id, date) to maintain data integrity during merging, using tools like Excel’s LOOKUP function.
+
+Outlier Detection and Treatment:
+Identified outliers using visual techniques (e.g., box plots in Excel/Power BI).
+Assessed whether outliers represented data entry errors or extreme but legitimate user behavior:
+Removed extreme outliers that were likely due to data errors (e.g., negative step counts).
+Retained legitimate outliers after verification, as they could provide valuable insights into user behavior patterns.
+
+Data Consistency and Integrity Checks:
+Ensured that data fields across merged datasets were consistent in format and meaning.
+Conducted cross-checks, such as validating the sum of hourly activity against daily totals, to verify the accuracy of aggregated data.
+
+Tools and Techniques Used
+Excel: Utilized for initial data exploration, handling duplicates, and applying basic filters.
+SQL: Employed to aggregate data and merge tables efficiently, especially for time-based data.
+Power BI: Used to visualize data patterns and identify outliers for further cleaning.
+
+Data Transformation Documentation
+A detailed data dictionary has been developed to document transformations applied to each dataset:
+
+Original Variable: Name and description of the original data field.
+Transformed Variable: Name and explanation of any new variables created (e.g., total_active_minutes).
+Transformation Method: The method used for any data modification (e.g., aggregation, imputation).
+Data Limitations After Cleaning
+Even after cleaning, the following limitations were noted:
+
+Sample Size Variations: Some datasets have fewer entries than others, which may affect the accuracy of analysis when merged.
+Inconsistent Recording Times: Certain activity metrics were not recorded consistently across all users, leading to potential biases in aggregated data.
+Imputed Values: While imputation was used to handle missing values, these estimates may not fully capture the actual user behavior.
