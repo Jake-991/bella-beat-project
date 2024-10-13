@@ -4,7 +4,7 @@ Bellabeat Data Analysis Case Study
 
 ## Table of Contents
 1. [Ask:Define the Business Problem and Objectives](#Ask)
-2. [Prepare](#prepare)
+2. [Prepare: Data Collection and Preparation](#prepare)
 3. [Clean/Process](#cleanprocess)
 4. [Analyze](#analyze)
 5. [Act](#act)
