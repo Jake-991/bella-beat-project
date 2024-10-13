@@ -1,6 +1,15 @@
 # Bellabeatproject
 This case study is part of the Google Data Analysis Certification program, aimed at providing guidance for the fitness company, Bellabeat, to optimize their product offerings and marketing strategies.
 Bellabeat Data Analysis Case Study
+
+## Table of Contents
+1. [Ask](#ask)
+2. [Prepare](#prepare)
+3. [Clean/Process](#cleanprocess)
+4. [Analyze](#analyze)
+5. [Act](#act)
+6. [Share](#share)
+
 ## Ask: Define the Business Problem and Objectives
 ### Project Overview
 This case study is part of the Google Data Analysis Certification program, designed to provide actionable insights to Bellabeat, a wellness technology company focused on empowering women. The aim of this analysis is to help Bellabeat enhance their product offerings and refine their marketing strategies based on users’ engagement data and health patterns.
