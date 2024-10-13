@@ -3,8 +3,8 @@ This case study is part of the Google Data Analysis Certification program, aimed
 Bellabeat Data Analysis Case Study
 
 ## Table of Contents
-1. [Ask:Define the Business Problem and Objectives](#Ask)
-2. [Prepare: Data Collection and Preparation](#prepare)
+1. [Ask](#Ask)
+2. [Prepare](#prepare)
 3. [Clean/Process](#cleanprocess)
 4. [Analyze](#analyze)
 5. [Act](#act)
