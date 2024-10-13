@@ -11,6 +11,8 @@ Bellabeat Data Analysis Case Study
 6. [Share](#share)
 
 ## Ask
+Ask key questions and define the business
+
 ### Project Overview
 This case study is part of the Google Data Analysis Certification program, designed to provide actionable insights to Bellabeat, a wellness technology company focused on empowering women. The aim of this analysis is to help Bellabeat enhance their product offerings and refine their marketing strategies based on users’ engagement data and health patterns.
 
@@ -59,7 +61,8 @@ At the conclusion of this project, the following deliverables will be provided:
 ### Presentation: A professional presentation for Bellabeat stakeholders, outlining strategic recommendations for product and marketing optimization.
 By addressing these questions and delivering actionable insights, this case study aims to empower Bellabeat to make data-driven decisions that enhance their product offerings and marketing strategies, ultimately contributing to their growth and success in the wellness technology market.
 
-## Prepare: Data Collection and Preparation
+## Prepare
+Data Collection and Preparation
 ### Overview
 The Prepare phase involves collecting, understanding, and preparing the dataset for analysis. In this case study, we use data from Bellabeat’s wellness devices, which track various health metrics such as daily activity, sleep patterns, heart rate, and calorie consumption. The purpose of this step is to ensure that the data is well-structured, accurate, and ready for the subsequent cleaning and analysis stages.
 
@@ -113,7 +116,9 @@ Sample Size: The data represents only a subset of Bellabeat users, which may not
 Time Frame: The data covers a specific period; trends observed may be influenced by seasonality or other time-based factors.
 Data Integrity: Some missing values and inconsistencies were observed, particularly in the sleep and heart rate datasets. Strategies such as imputation or filtering may be required during the cleaning process.
 
-## Clean/Process: Data Cleaning and Transformation
+## Clean/Process
+Data Cleaning and Transformation
+
 ### Overview
 The Clean/Process phase involves cleaning the datasets and preparing them for in-depth analysis. This step ensures data integrity, consistency, and accuracy, allowing for meaningful insights to be derived during the analysis phase. In this case study, multiple datasets related to user activity, sleep patterns, heart rate, and other wellness metrics have been cleaned and processed to establish a reliable foundation for analysis.
 
@@ -174,7 +179,9 @@ Sample Size Variations: Some datasets have fewer entries than others, which may 
 Inconsistent Recording Times: Certain activity metrics were not recorded consistently across all users, leading to potential biases in aggregated data.
 Imputed Values: While imputation was used to handle missing values, these estimates may not fully capture the actual user behavior.
 
-## Analyze: Exploratory Data Analysis and Insights
+## Analyze
+Exploratory Data Analysis and Insights
+
 ### Overview
 The Analyze phase focuses on performing Exploratory Data Analysis (EDA) to uncover patterns, trends, and relationships in the data. This step helps in understanding how different factors such as activity levels, sleep patterns, and calorie burn align with user behavior and wellness outcomes. Using Excel, SQL, and data visualization tools, key insights are drawn to address the main business questions.
 
@@ -256,7 +263,9 @@ Encourage High-Intensity Activity: Since users with higher very active minutes b
 Weekday vs. Weekend Engagement: To increase engagement during the weekdays, Bellabeat could launch weekday challenges or introduce reminders for users to stay active during work hours.
 Improve Sleep Quality: Bellabeat can promote sleep hygiene features that focus on improving sleep quality rather than just sleep duration. Encouraging users to follow a consistent sleep routine could help them become more active during the day.
 Segmented User Engagement: Personalizing the app experience based on user activity levels will increase overall engagement. Bellabeat could offer different types of recommendations, content, and incentives based on whether users fall into the low, moderate, or high activity segments.
-### Act: Recommendations Based on Data Insights
+### Act
+Recommendations Based on Data Insights
+
 #### Overview
 The Act phase translates the findings from our analysis into actionable recommendations for Bellabeat. These recommendations focus on enhancing product offerings, user engagement, and marketing strategies to improve user wellness and satisfaction.
 
@@ -311,3 +320,37 @@ Increased Calorie Burn for users who engage with new features
 Sleep Quality Improvement over time
 Conclusion
 By implementing the above recommendations, Bellabeat can enhance user engagement, improve wellness outcomes, and offer personalized features that cater to different user segments. Encouraging high-intensity activity, improving weekday engagement, and promoting better sleep quality will help Bellabeat position itself as a comprehensive wellness platform that meets its users' physical and mental well-being needs.
+
+## Share
+Presenting the Results
+
+Overview
+This section presents the findings and insights uncovered during the analysis of Bellabeat user data. The results are communicated through visualizations and key takeaways to provide actionable recommendations for Bellabeat's product development and marketing strategies.
+
+Visualizations and Findings
+1. Activity Patterns
+Finding: The most popular activities among users are lightly active minutes and sedentary minutes. High-intensity activities (very active minutes) occur less frequently.
+
+Visualization: (Insert your bar chart showing the distribution of activity types, e.g., very active, fairly active, lightly active, and sedentary minutes.)
+
+Finding: Activity levels tend to peak during morning (7–9 AM) and evening hours (5–7 PM).
+
+Visualization: (Insert a line chart or heatmap showing peak activity times throughout the day.)
+
+2. Weekday vs. Weekend Behavior
+Finding: Users are generally more active on weekends, with more steps taken and higher active minutes compared to weekdays. However, calorie burn is similar across both.
+Visualization: (Insert a bar chart comparing average steps, active minutes, and calories burned on weekdays vs. weekends.)
+3. Correlation Between Sleep and Activity
+Finding: While longer sleep duration does not strongly correlate with higher activity levels, users with better sleep quality tend to engage in more physical activity.
+Visualization: (Insert a scatter plot showing the relationship between sleep quality/duration and active minutes or calorie burn.)
+4. Calorie and Activity Alignment
+Finding: There is a strong positive correlation between very active minutes and calories burned. Users with higher very active minutes burn significantly more calories than those who engage in lighter activities.
+Visualization: (Insert a scatter plot showing the relationship between very active minutes and calories burned.)
+5. Segmentation by Activity Level
+Finding: Users can be segmented into low, moderate, and high activity groups based on daily steps, with high activity users demonstrating more consistent engagement and better wellness scores.
+Visualization: (Insert a pie chart or bar chart showing the distribution of users by activity level: low, moderate, high.)
+Key Insights and Recommendations
+Encourage High-Intensity Activities: Promote short, intense workout routines to increase calorie burn and engagement.
+Weekday Challenges: Introduce weekday-specific challenges to maintain activity levels during workdays.
+Improve Sleep Quality: Focus on enhancing sleep quality through in-app sleep hygiene tips and reminders.
+Personalized Engagement: Segment users based on their activity levels and provide tailored challenges, rewards, and fitness goals.
