@@ -186,21 +186,20 @@ Exploratory Data Analysis and Insights
 The Analyze phase focuses on performing Exploratory Data Analysis (EDA) to uncover patterns, trends, and relationships in the data. This step helps in understanding how different factors such as activity levels, sleep patterns, and calorie burn align with user behavior and wellness outcomes. Using Excel, SQL, and data visualization tools, key insights are drawn to address the main business questions.
 
 ### Key Questions Addressed
-Activity Patterns:
+#### Activity Patterns:
 
-### What are the most popular types of physical activities users engage in (e.g., steps, active minutes)?
+What are the most popular types of physical activities users engage in (e.g., steps, active minutes)?
 How do activity levels vary throughout the day, and are there peak times when users are most active?
-User Behavior Analysis:
-
-### How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
+#### User Behavior Analysis:
+How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
 What factors correlate with higher levels of physical activity (e.g., heart rate, sleep quality)?
-Calorie and Sleep Monitoring:
+#### Calorie and Sleep Monitoring:
 
-### How do users’ calorie consumption and burn patterns align with their activity levels?
+How do users’ calorie consumption and burn patterns align with their activity levels?
 Are there specific sleep patterns or habits that correlate with increased activity levels or higher overall wellness scores?
-Demographic and Behavioral Segmentation:
+#### Demographic and Behavioral Segmentation:
 
-### Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
+Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
 1. Activity Patterns:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv
