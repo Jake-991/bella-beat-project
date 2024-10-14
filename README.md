@@ -271,12 +271,6 @@ Insights:
 #### For Low Activity users: Provide motivational content and easier workout routines.
 #### For High Activity users: Offer rewards, challenges, or advanced tracking features to maintain engagement.
 
-General Insights and Recommendations for Bellabeat:
-Encourage High-Intensity Activity: Since users with higher very active minutes burn more calories, Bellabeat could introduce features that encourage short, intense workout sessions.
-Weekday vs. Weekend Engagement: To increase engagement during the weekdays, Bellabeat could launch weekday challenges or introduce reminders for users to stay active during work hours.
-Improve Sleep Quality: Bellabeat can promote sleep hygiene features that focus on improving sleep quality rather than just sleep duration. Encouraging users to follow a consistent sleep routine could help them become more active during the day.
-Segmented User Engagement: Personalizing the app experience based on user activity levels will increase overall engagement. Bellabeat could offer different types of recommendations, content, and incentives based on whether users fall into the low, moderate, or high activity segments.
-
 ### Act
 Recommendations Based on Data Insights
 
