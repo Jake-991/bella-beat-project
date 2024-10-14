@@ -278,55 +278,80 @@ Recommendations Based on Data Insights
 The Act phase translates the findings from our analysis into actionable recommendations for Bellabeat. These recommendations focus on enhancing product offerings, user engagement, and marketing strategies to improve user wellness and satisfaction.
 
 #### Key Recommendations
-1. Encourage High-Intensity Activity for Better Calorie Burn
-Insight:
-The analysis showed a strong positive correlation between very active minutes and calories burned. Users who engaged in high-intensity activities burned significantly more calories than those who only participated in lightly active or sedentary behavior.
-Recommendation:
-Feature Suggestion: Introduce a “High-Intensity Boost” feature that encourages users to participate in short, high-intensity workouts. This feature could include:
-Short Workout Routines: Quick 10-15 minute intense exercises.
-Reminders: Notifications during the day (especially during peak activity hours like morning and evening) encouraging users to complete a high-intensity workout.
-Progress Tracking: A specific tracker for high-intensity minutes that displays the impact on calorie burn in real-time.
-2. Promote Weekend Activity Engagement
-Insight:
-User activity levels are significantly lower on weekdays compared to weekends. While users tend to be more active during weekdays, their activity drops off during workends, possibly due to busy schedules.
-Recommendation:
-Feature Suggestion: Implement a “Weekend Challenge”:
-Daily challenges designed to increase engagement during the weekends. These could include simple fitness tasks, step goals, or mini-workouts that can be completed throughout the day.
-Team Challenges: Encourage social engagement by introducing team-based weekend challenges where users can compete with friends or colleagues to hit activity milestones.
-3. Improve Sleep Quality for Enhanced Wellness
-Insight:
-Although the correlation between sleep duration and activity levels was relatively weak, users with better sleep quality (measured by fewer wake-up times and higher REM sleep) tended to be more active and burn more calories.
-Recommendation:
-Feature Suggestion: Introduce a “Sleep Improvement Program”:
-Provide personalized insights and tips to help users improve their sleep quality, not just duration. Focus on sleep hygiene, consistent wake-up times, and avoiding interruptions during sleep.
-Offer sleep reminders: Notifications to remind users to wind down and prepare for bed (e.g., mindfulness practices or sleep-friendly routines).
-Sleep Reports: A weekly summary of sleep quality with actionable tips on how users can improve their sleep to boost their wellness and energy levels.
-4. Segment Users for Personalized Recommendations
-Insight:
-Users with higher daily step counts (over 10,000 steps/day) showed consistently higher engagement with the app and better wellness outcomes. On the other hand, low-activity users (under 5,000 steps/day) were less engaged.
-Recommendation:
-Feature Suggestion: Introduce User Segmentation and Personalized Recommendations:
-Create Low, Moderate, and High Activity User Segments based on daily steps or activity levels.
-Provide personalized recommendations for each segment:
-Low Activity Users: Encourage them with beginner-level workouts, motivational content, and easy-to-achieve daily step goals.
-Moderate Activity Users: Suggest more advanced workout routines and weekly challenges to push them to the next activity level.
-High Activity Users: Offer advanced tracking features, fitness challenges, and rewards for maintaining high activity levels.
-Implement goal-based incentives, such as unlocking achievements, earning badges, or gaining rewards for reaching certain milestones.
-5. Target Marketing Campaigns for Each User Segment
-Insight:
-Each user segment (low, moderate, high activity) behaves differently in terms of engagement and activity levels, which means that marketing efforts need to be more personalized to target their specific needs.
-Recommendation:
-Marketing Strategy: Create segment-specific marketing campaigns to increase engagement and retention:
-Low Activity Segment: Run campaigns focused on motivation, simple health tips, and rewards for hitting easy goals.
-Moderate Activity Segment: Promote new fitness challenges or features that can push them to higher activity levels.
-High Activity Segment: Focus on advanced fitness features, rewards, and exclusive content (such as guided workout plans).
-Metrics for Success:
-Measure the impact of these changes by tracking:
-Daily and Weekly Active Minutes
-User Engagement Rates (daily app opens, feature usage)
-Increased Calorie Burn for users who engage with new features
-Sleep Quality Improvement over time
-Conclusion
+#### Encourage High-Intensity Activity for Better Calorie Burn
+    
+ Insight:
+ The analysis showed a strong positive correlation between very active minutes and calories burned. Users who engaged in high-intensity activities burned    
+ significantly more calories than those who only participated in lightly active or sedentary behavior.
+
+ Recommendation:
+ Feature Suggestion: Introduce a “High-Intensity Boost” feature that encourages users to participate in short, high-intensity workouts. This feature could  
+ include:
+ Short Workout Routines: Quick 10-15 minute intense exercises.
+ Reminders: Notifications during the day (especially during peak activity hours like morning and evening) encouraging users to complete a high-intensity 
+ workout.
+ Progress Tracking: A specific tracker for high-intensity minutes that displays the impact on calorie burn in real-time.
+
+#### Promote Weekend Activity Engagement
+ Insight:
+ User activity levels are significantly lower on weekdays compared to weekends. While users tend to be more active during weekdays, their activity drops off 
+ during workends, possibly due to busy schedules.
+
+ Recommendation:
+ Feature Suggestion: Implement a “Weekend Challenge”:
+ Daily challenges designed to increase engagement during the weekends. These could include simple fitness tasks, step goals, or mini-workouts that can be 
+ completed throughout the day.
+ Team Challenges: Encourage social engagement by introducing team-based weekend challenges where users can compete with friends or colleagues to hit 
+ activity milestones.
+
+#### Improve Sleep Quality for Enhanced Wellness
+ Insight:
+ Although the correlation between sleep duration and activity levels was relatively weak, users with better sleep quality (measured by fewer wake-up times 
+ and higher REM sleep) tended to be more active and burn more calories.
+
+ Recommendation:
+ Feature Suggestion: Introduce a “Sleep Improvement Program”:
+ Provide personalized insights and tips to help users improve their sleep quality, not just duration. Focus on sleep hygiene, consistent wake-up times, and 
+ avoiding interruptions during sleep.
+
+ Offer sleep reminders: Notifications to remind users to wind down and prepare for bed (e.g., mindfulness practices or sleep-friendly routines).
+ Sleep Reports: A weekly summary of sleep quality with actionable tips on how users can improve their sleep to boost their wellness and energy levels.
+
+ Segment Users for Personalized Recommendations
+ Insight:
+ Users with higher daily step counts (over 10,000 steps/day) showed consistently higher engagement with the app and better wellness outcomes. On the other 
+ hand, low-activity users (under 5,000 steps/day) were less engaged.
+
+ Recommendation:
+ Feature Suggestion: Introduce User Segmentation and Personalized Recommendations:
+ Create Low, Moderate, and High Activity User Segments based on daily steps or activity levels.
+
+ Provide personalized recommendations for each segment:
+ Low Activity Users: Encourage them with beginner-level workouts, motivational content, and easy-to-achieve daily step goals.
+ Moderate Activity Users: Suggest more advanced workout routines and weekly challenges to push them to the next activity level.
+ High Activity Users: Offer advanced tracking features, fitness challenges, and rewards for maintaining high activity levels.
+ Implement goal-based incentives, such as unlocking achievements, earning badges, or gaining rewards for reaching certain milestones.
+
+#### Target Marketing Campaigns for Each User Segment
+ Insight:
+ Each user segment (low, moderate, high activity) behaves differently in terms of engagement and activity levels, which means that marketing efforts need to 
+ be more personalized to target their specific needs.
+
+ Recommendation:
+ Marketing Strategy: Create segment-specific marketing campaigns to increase engagement and retention:
+ Low Activity Segment: Run campaigns focused on motivation, simple health tips, and rewards for hitting easy goals.
+ Moderate Activity Segment: Promote new fitness challenges or features that can push them to higher activity levels.
+ High Activity Segment: Focus on advanced fitness features, rewards, and exclusive content (such as guided workout plans).
+
+ Metrics for Success:
+ Measure the impact of these changes by tracking:
+ Daily and Weekly Active Minutes
+ User Engagement Rates (daily app opens, feature usage)
+ Increased Calorie Burn for users who engage with new features
+ Sleep Quality Improvement over time
+
+#### Conclusion
+
 By implementing the above recommendations, Bellabeat can enhance user engagement, improve wellness outcomes, and offer personalized features that cater to different user segments. Encouraging high-intensity activity, improving weekday engagement, and promoting better sleep quality will help Bellabeat position itself as a comprehensive wellness platform that meets its users' physical and mental well-being needs.
 
 ## Share
@@ -351,15 +376,12 @@ Finding: Users are generally more active on weekends, with more steps taken and 
 
 4. Correlation Between Sleep and Activity
 Finding: While longer sleep duration does not strongly correlate with higher activity levels, users with better sleep quality tend to engage in more physical activity.
-Visualization: (Insert a scatter plot showing the relationship between sleep quality/duration and active minutes or calorie burn.)
+Visualization: ![Correlation](Image/Correlation_Sleepcaloriesburn.jpg)
 
-6. Calorie and Activity Alignment
-Finding: There is a strong positive correlation between very active minutes and calories burned. Users with higher very active minutes burn significantly more calories than those who engage in lighter activities.
-Visualization: (Insert a scatter plot showing the relationship between very active minutes and calories burned.)
-
-7. Segmentation by Activity Level
+5. Segmentation by Activity Level
 Finding: Users can be segmented into low, moderate, and high activity groups based on daily steps, with high activity users demonstrating more consistent engagement and better wellness scores.
 Visualization: ![Activity_Level](Image/Activity_Groups_Per.jpg)
+
 Key Insights and Recommendations
 Encourage High-Intensity Activities: Promote short, intense workout routines to increase calorie burn and engagement.
 Weekday Challenges: Introduce weekday-specific challenges to maintain activity levels during workdays.
