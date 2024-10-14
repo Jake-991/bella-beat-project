@@ -190,6 +190,7 @@ The Analyze phase focuses on performing Exploratory Data Analysis (EDA) to uncov
 What are the most popular types of physical activities users engage in (e.g., steps, active minutes)?
 How do activity levels vary throughout the day, and are there peak times when users are most active?
 Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
+
 1. Activity Patterns:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv
@@ -208,6 +209,7 @@ Insights:
 #### User Behavior Analysis:
 How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
 What factors correlate with higher levels of physical activity (e.g., heart rate, sleep quality)?
+
 2. User Behavior Analysis:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv, dailyCalories_merged.csv, and sleepDay_merged.csv
@@ -227,6 +229,7 @@ Insights:
 #### Calorie and Sleep Monitoring:
 How do users’ calorie consumption and burn patterns align with their activity levels?
 Are there specific sleep patterns or habits that correlate with increased activity levels or higher overall wellness scores?
+
 3. Calorie and Sleep Monitoring:
 Analysis Approach:
 Data Used: dailyCalories_merged.csv, dailyActivity_merged.csv, and sleepDay_merged.csv
@@ -244,6 +247,7 @@ Insights:
 #### Demographic and Behavioral Segmentation:
 Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
 How can Bellabeat better personalize recommendations and marketing campaigns to target these segments effectively?
+
 Analysis Approach:
 Data Used: dailyActivity_merged.csv and sleepDay_merged.csv
 Metrics Analyzed:
