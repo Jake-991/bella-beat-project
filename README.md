@@ -187,18 +187,8 @@ The Analyze phase focuses on performing Exploratory Data Analysis (EDA) to uncov
 
 ### Key Questions Addressed
 #### Activity Patterns:
-
 What are the most popular types of physical activities users engage in (e.g., steps, active minutes)?
 How do activity levels vary throughout the day, and are there peak times when users are most active?
-#### User Behavior Analysis:
-How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
-What factors correlate with higher levels of physical activity (e.g., heart rate, sleep quality)?
-#### Calorie and Sleep Monitoring:
-
-How do users’ calorie consumption and burn patterns align with their activity levels?
-Are there specific sleep patterns or habits that correlate with increased activity levels or higher overall wellness scores?
-#### Demographic and Behavioral Segmentation:
-
 Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
 1. Activity Patterns:
 Analysis Approach:
@@ -214,6 +204,10 @@ Visualization:
 A line chart was created to show activity peaks during the day. This can help Bellabeat target these periods with notifications or workout suggestions.
 Insights:
 #### Recommendation: Bellabeat could develop features that push for more high-intensity workouts during the afternoon peak times or introduce reminders for users who remain in sedentary minutes for too long.
+
+#### User Behavior Analysis:
+How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
+What factors correlate with higher levels of physical activity (e.g., heart rate, sleep quality)?
 2. User Behavior Analysis:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv, dailyCalories_merged.csv, and sleepDay_merged.csv
@@ -229,6 +223,10 @@ Bar charts comparing average steps, calories burned, and sleep duration on weekd
 Scatter plots showing the relationship between calories burned and active minutes.
 Insights:
 #### Recommendation: Bellabeat could develop specific weekend challenges or promote healthier sleep habits during the week to boost user engagement and activity levels during weekdays.
+
+#### Calorie and Sleep Monitoring:
+How do users’ calorie consumption and burn patterns align with their activity levels?
+Are there specific sleep patterns or habits that correlate with increased activity levels or higher overall wellness scores?
 3. Calorie and Sleep Monitoring:
 Analysis Approach:
 Data Used: dailyCalories_merged.csv, dailyActivity_merged.csv, and sleepDay_merged.csv
@@ -242,7 +240,10 @@ A scatter plot visualizing the relationship between very active minutes and calo
 Correlation matrix showing the relationship between sleep quality metrics and physical activity.
 Insights:
 #### Recommendation: Bellabeat should encourage users to improve sleep quality rather than just sleep duration. Features like sleep hygiene tips or wake-up time consistency could be introduced to improve overall wellness scores.
-4. Demographic and Behavioral Segmentation:
+
+#### Demographic and Behavioral Segmentation:
+Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
+How can Bellabeat better personalize recommendations and marketing campaigns to target these segments effectively?
 Analysis Approach:
 Data Used: dailyActivity_merged.csv and sleepDay_merged.csv
 Metrics Analyzed:
@@ -262,6 +263,7 @@ Encourage High-Intensity Activity: Since users with higher very active minutes b
 Weekday vs. Weekend Engagement: To increase engagement during the weekdays, Bellabeat could launch weekday challenges or introduce reminders for users to stay active during work hours.
 Improve Sleep Quality: Bellabeat can promote sleep hygiene features that focus on improving sleep quality rather than just sleep duration. Encouraging users to follow a consistent sleep routine could help them become more active during the day.
 Segmented User Engagement: Personalizing the app experience based on user activity levels will increase overall engagement. Bellabeat could offer different types of recommendations, content, and incentives based on whether users fall into the low, moderate, or high activity segments.
+
 ### Act
 Recommendations Based on Data Insights
 
@@ -323,10 +325,10 @@ By implementing the above recommendations, Bellabeat can enhance user engagement
 ## Share
 Presenting the Results
 
-Overview
+### Overview
 This section presents the findings and insights uncovered during the analysis of Bellabeat user data. The results are communicated through visualizations and key takeaways to provide actionable recommendations for Bellabeat's product development and marketing strategies.
 
-Visualizations and Findings
+### Visualizations and Findings
 1. Activity Patterns
 Finding: The most popular activities among users are lightly active minutes and sedentary minutes. High-intensity activities (very active minutes) occur less frequently.
 
@@ -339,13 +341,16 @@ Visualization: (Insert a line chart or heatmap showing peak activity times throu
 2. Weekday vs. Weekend Behavior
 Finding: Users are generally more active on weekends, with more steps taken and higher active minutes compared to weekdays. However, calorie burn is similar across both.
 Visualization: (Insert a bar chart comparing average steps, active minutes, and calories burned on weekdays vs. weekends.)
-3. Correlation Between Sleep and Activity
+
+4. Correlation Between Sleep and Activity
 Finding: While longer sleep duration does not strongly correlate with higher activity levels, users with better sleep quality tend to engage in more physical activity.
 Visualization: (Insert a scatter plot showing the relationship between sleep quality/duration and active minutes or calorie burn.)
-4. Calorie and Activity Alignment
+
+6. Calorie and Activity Alignment
 Finding: There is a strong positive correlation between very active minutes and calories burned. Users with higher very active minutes burn significantly more calories than those who engage in lighter activities.
 Visualization: (Insert a scatter plot showing the relationship between very active minutes and calories burned.)
-5. Segmentation by Activity Level
+
+7. Segmentation by Activity Level
 Finding: Users can be segmented into low, moderate, and high activity groups based on daily steps, with high activity users demonstrating more consistent engagement and better wellness scores.
 Visualization: (Insert a pie chart or bar chart showing the distribution of users by activity level: low, moderate, high.)
 Key Insights and Recommendations
