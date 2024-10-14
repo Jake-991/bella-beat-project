@@ -339,14 +339,14 @@ This section presents the findings and insights uncovered during the analysis of
 1. Activity Patterns
 Finding: The most popular activities among users are lightly active minutes and sedentary minutes. High-intensity activities (very active minutes) occur less frequently.
 
-Visualization: ![Activity_Patterns](Popular_Types_of_Minutes.jpg)
+Visualization: ![Activity_Patterns](Image/Popular_Types_of_Minutes.jpg)
 
 Finding: Activity levels tend to peak during morning (7–9 AM) and evening hours (5–7 PM).
 
-Visualization: ![Activity_level](Peak_Steps_24_Hour)
+Visualization: ![Activity_level](Image/Peak_Steps_24_Hour.jpg)
 2. Weekday vs. Weekend Behavior
 Finding: Users are generally more active on weekends, with more steps taken and higher active minutes compared to weekdays. However, calorie burn is similar across both.
-Visualization: ![Weekdays_vs_weekends](image/Activity_Groups_Steps.jpg)
+Visualization: ![Weekdays_vs_weekends](Image/Activity_Groups_Steps.jpg)
 
 4. Correlation Between Sleep and Activity
 Finding: While longer sleep duration does not strongly correlate with higher activity levels, users with better sleep quality tend to engage in more physical activity.
