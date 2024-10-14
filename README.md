@@ -191,16 +191,18 @@ What are the most popular types of physical activities users engage in (e.g., st
 How do activity levels vary throughout the day, and are there peak times when users are most active?
 Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
 
-1. Activity Patterns:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv
+
 Metrics Analyzed:
 Total Steps
 Active Minutes (very active, fairly active, lightly active)
 Sedentary Minutes
+
 Key Findings:
 Most Popular Activities: The majority of users spend a significant amount of time in lightly active minutes and sedentary minutes. Only a smaller portion of the day is spent in very active minutes, indicating room for encouraging more high-intensity activities.
 Peak Activity Times: Analysis of the minute-level steps data revealed that users are most active during the morning (7–9 AM) and late afternoon (5–7 PM), coinciding with commuting times and after-work hours.
+
 Visualization:
 A line chart was created to show activity peaks during the day. This can help Bellabeat target these periods with notifications or workout suggestions.
 Insights:
@@ -210,16 +212,18 @@ Insights:
 How does user behavior differ between weekdays and weekends in terms of activity levels, calorie burn, and sleep duration?
 What factors correlate with higher levels of physical activity (e.g., heart rate, sleep quality)?
 
-2. User Behavior Analysis:
 Analysis Approach:
 Data Used: dailyActivity_merged.csv, dailyCalories_merged.csv, and sleepDay_merged.csv
+
 Metrics Analyzed:
 Activity levels, Calories burned, and Sleep duration across weekdays and weekends.
+
 Key Findings:
 Weekday vs. Weekend Activity: Users are generally more active on weekends, with higher steps and active minutes. Sleep duration is also longer on weekends, suggesting users compensate for lack of sleep during the week.
 Correlation Analysis:
 Calories vs. Steps: A strong positive correlation (r ≈ 0.69) was found between calories burned and total steps taken, confirming that more active users burn more calories.
 Sleep vs. Activity: A weak correlation (r ≈ 0.3) was found between sleep duration and activity levels, suggesting that while good sleep is important, it is not the primary driver of higher activity levels.
+
 Visualization:
 Bar charts comparing average steps, calories burned, and sleep duration on weekdays vs. weekends.
 Scatter plots showing the relationship between calories burned and active minutes.
@@ -230,14 +234,16 @@ Insights:
 How do users’ calorie consumption and burn patterns align with their activity levels?
 Are there specific sleep patterns or habits that correlate with increased activity levels or higher overall wellness scores?
 
-3. Calorie and Sleep Monitoring:
 Analysis Approach:
 Data Used: dailyCalories_merged.csv, dailyActivity_merged.csv, and sleepDay_merged.csv
+
 Metrics Analyzed:
 Daily calories burned, sleep duration, and active minutes.
+
 Key Findings:
 Calories and Activity Alignment: Users with higher very active minutes tend to burn significantly more calories. Those with lightly active minutes or sedentary behavior tend to burn fewer calories, even if they have long activity durations.
 Sleep Patterns and Activity: Users with better sleep quality (i.e., higher REM sleep or fewer wake times) tend to engage in more intense physical activity the following day. However, longer sleep duration doesn’t always equate to higher activity levels.
+
 Visualization:
 A scatter plot visualizing the relationship between very active minutes and calories burned.
 Correlation matrix showing the relationship between sleep quality metrics and physical activity.
@@ -248,20 +254,23 @@ Insights:
 Are there specific user segments (e.g., age groups, activity levels) that demonstrate higher engagement rates or consistent product usage?
 How can Bellabeat better personalize recommendations and marketing campaigns to target these segments effectively?
 
-Analysis Approach:
 Data Used: dailyActivity_merged.csv and sleepDay_merged.csv
+
 Metrics Analyzed:
 Segmenting Users: Users were segmented into Low Activity, Moderate Activity, and High Activity based on their average steps per day.
+
 Key Findings:
 High Activity Users: Users who took more than 10,000 steps per day showed consistently higher engagement with the app and had better wellness scores (calories burned, active minutes).
 Low Activity Users: These users tended to spend more time in sedentary minutes and showed lower levels of engagement with Bellabeat’s fitness features.
 Visualization:
 A pie chart was used to represent the distribution of users in each activity segment.
 Bar charts showing the comparison of engagement metrics (steps, active minutes, calories burned) across user segments.
+
 Insights:
 #### Recommendation: Bellabeat could create personalized recommendations for each user segment:
-For Low Activity users: Provide motivational content and easier workout routines.
-For High Activity users: Offer rewards, challenges, or advanced tracking features to maintain engagement.
+#### For Low Activity users: Provide motivational content and easier workout routines.
+#### For High Activity users: Offer rewards, challenges, or advanced tracking features to maintain engagement.
+
 General Insights and Recommendations for Bellabeat:
 Encourage High-Intensity Activity: Since users with higher very active minutes burn more calories, Bellabeat could introduce features that encourage short, intense workout sessions.
 Weekday vs. Weekend Engagement: To increase engagement during the weekdays, Bellabeat could launch weekday challenges or introduce reminders for users to stay active during work hours.
