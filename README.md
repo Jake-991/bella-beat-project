@@ -341,12 +341,13 @@ Finding: The most popular activities among users are lightly active minutes and 
 
 Visualization: ![Activity_Patterns](Image/Popular_Types_of_Minutes.jpg)
 
-Finding: Activity levels tend to peak during morning (7–9 AM) and evening hours (5–7 PM).
+Activity levels tend to peak during morning (7–9 AM) and evening hours (5–7 PM).
 
 Visualization: ![Activity_level](Image/Peak_Steps_24_Hour.jpg)
+
 2. Weekday vs. Weekend Behavior
 Finding: Users are generally more active on weekends, with more steps taken and higher active minutes compared to weekdays. However, calorie burn is similar across both.
-Visualization: ![Weekdays_vs_weekends](Image/Activity_Groups_Steps.jpg)
+ ![Weekdays_vs_weekends](Image/Calories_Burn.jpg)
 
 4. Correlation Between Sleep and Activity
 Finding: While longer sleep duration does not strongly correlate with higher activity levels, users with better sleep quality tend to engage in more physical activity.
@@ -358,7 +359,7 @@ Visualization: (Insert a scatter plot showing the relationship between very acti
 
 7. Segmentation by Activity Level
 Finding: Users can be segmented into low, moderate, and high activity groups based on daily steps, with high activity users demonstrating more consistent engagement and better wellness scores.
-Visualization: (Insert a pie chart or bar chart showing the distribution of users by activity level: low, moderate, high.)
+Visualization: ![Activity_Level](Image/Activity_Groups_Per.jpg)
 Key Insights and Recommendations
 Encourage High-Intensity Activities: Promote short, intense workout routines to increase calorie burn and engagement.
 Weekday Challenges: Introduce weekday-specific challenges to maintain activity levels during workdays.
