@@ -292,9 +292,9 @@ Feature Suggestion: Introduce a “High-Intensity Boost” feature that encourag
 Short Workout Routines: Quick 10-15 minute intense exercises.
 Reminders: Notifications during the day (especially during peak activity hours like morning and evening) encouraging users to complete a high-intensity workout.
 Progress Tracking: A specific tracker for high-intensity minutes that displays the impact on calorie burn in real-time.
-2. Promote Weekday Activity Engagement
+2. Promote Weekend Activity Engagement
 Insight:
-User activity levels are significantly lower on weekends compared to weekdays. While users tend to be more active during weekdays, their activity drops off during workends, possibly due to busy schedules.
+User activity levels are significantly lower on weekdays compared to weekends. While users tend to be more active during weekdays, their activity drops off during workends, possibly due to busy schedules.
 Recommendation:
 Feature Suggestion: Implement a “Weekend Challenge”:
 Daily challenges designed to increase engagement during the weekends. These could include simple fitness tasks, step goals, or mini-workouts that can be completed throughout the day.
