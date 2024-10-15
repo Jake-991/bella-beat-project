@@ -382,6 +382,9 @@ Visualization: ![Correlation](Image/Correlation_Sleepcaloriesburn.jpg)
 Finding: Users can be segmented into low, moderate, and high activity groups based on daily steps, with high activity users demonstrating more consistent engagement and better wellness scores.
 Visualization: ![Activity_Level](Image/Activity_Groups_Per.jpg)
 
+The Power Bi Dashboard As Below:
+![Dashoard](Image/Dashboard_Graph.jpg)
+
 Key Insights and Recommendations
 Encourage High-Intensity Activities: Promote short, intense workout routines to increase calorie burn and engagement.
 Weekday Challenges: Introduce weekday-specific challenges to maintain activity levels during workdays.
