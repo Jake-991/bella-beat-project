@@ -1,6 +1,8 @@
 # 🌿 Bellabeat Smart Device Case Study
 
 This case study analyzes smart wellness device data to uncover trends in user behavior, including activity levels, sleep patterns, and heart rate. Insights are used to support Bellabeat’s strategic planning in product development and marketing.
+> Tools: SQL, Tableau, Excel  
+> Scope: Customer segmentation, ride pattern analysis, marketing strategy
 
 ## Table of Contents
 1. [Ask](#Ask)
