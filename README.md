@@ -1,82 +1,84 @@
-# 🌿 Bellabeat Smart Device Case Study
+# Bellabeat Wellness Product Strategy
 
-This case study is part of the Google Data Analytics Capstone. It analyzes user data from Bellabeat’s smart wellness devices to uncover trends in physical activity, sleep patterns, and other lifestyle behaviors. The goal is to provide actionable recommendations to optimize product features and marketing strategies.
-
-**Tools:** SQL, Excel, Tableau, Power BI  
-**Skills:** Data cleaning, behavioral analysis, segmentation, dashboard visualization, storytelling
+This project explores how Bellabeat, a smart wellness product company, can improve user engagement and inform product strategy by analyzing activity data from its fitness tracker users. Using behavioral data from wearable devices, the project identifies trends in sleep, activity, and sedentary behavior to support decisions in product design and marketing.
 
 ---
 
 ## Table of Contents
-- [Ask](#ask)
-- [Prepare](#prepare)
-- [Clean and Process](#clean-and-process)
-- [Analyze](#analyze)
-- [Act](#act)
-- [Share (Power BI Visuals)](#share-power-bi-visuals)
+
+- [Project Objective](#project-objective)
+- [Business Questions](#business-questions)
+- [Tools and Techniques](#tools-and-techniques)
+- [Data Preparation](#data-preparation)
+- [Analysis Highlights](#analysis-highlights)
+- [Strategic Insights](#strategic-insights)
+- [Key Takeaways](#key-takeaways)
+- [Power BI Visuals](#power-bi-visuals)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## Ask
+## Project Objective
 
-### Project Overview
-This case study was completed as part of the Google Data Analytics Certificate. The project focuses on Bellabeat — a health-focused smart device company — and how user behavior data can inform business growth.
-
-### Business Context
-Bellabeat creates wellness trackers aimed at women. With competition rising, they seek to better understand how users interact with their products to boost engagement, retention, and customer value.
-
-### Key Questions
-- What activities are users engaging in most?
-- How do weekday vs weekend patterns differ?
-- Are sleep, calorie burn, or heart rate linked to activity?
-- Which user segments are most engaged?
+To help Bellabeat refine its product and marketing strategy by analyzing behavioral patterns in activity tracker usage, with the goal of increasing engagement, promoting healthier habits, and identifying high-value user segments.
 
 ---
 
-## Prepare
+## Business Questions
 
-- Source: Fitbit dataset from 30 women over 31 days
-- Tables used: Daily activity, sleep, heart rate, steps, and calories
-- Tools: R, Excel for wrangling; Power BI and Tableau for visualization
-
----
-
-## Clean and Process
-
-- Merged all tables using user ID and date
-- Removed duplicates and handled null/missing data
-- Filtered out unrealistic records (e.g., steps = 0 with high calorie burn)
-- Parsed datetime formats
-- Created calculated fields (e.g., total active minutes, average sleep time)
+- How active are Bellabeat users on average, and how does that vary by weekday, time of day, or user segment?
+- What correlations exist between sleep quality, activity levels, and sedentary time?
+- Can usage patterns inform targeted recommendations or product features?
 
 ---
 
-## Analyze
+## Tools and Techniques
 
-**Key behavior trends examined:**
-- Step count vs. calories burned
-- Daily sleep duration and consistency
-- Active minutes segmented by weekday vs. weekend
-- Heart rate zone intensity
-
-**Notable findings:**
-- Majority of users did not reach 30 minutes of daily activity
-- Weekend routines are inconsistent, often lower in activity
-- Users with consistent sleep showed higher energy and movement during the day
+- Python (pandas, matplotlib, seaborn) for data wrangling and exploration
+- Tableau for data visualization and storytelling
+- Excel for early-stage cleaning and data validation
 
 ---
 
-## Act
+## Data Preparation
 
-**Recommendations:**
-1. **Gamify Activity Goals:** Push users toward the 30 min/day benchmark with smart nudges and rewards
-2. **Sleep Optimization Features:** Implement smart sleep tips, bedtime reminders, and recovery insights
-3. **Segmented Marketing Campaigns:** Differentiate messaging based on activity and sleep usage patterns
-4. **Community Challenges:** Encourage consistency through group fitness goals or leaderboard challenges
+- Used public FitBit fitness tracker dataset (n = ~30 users over 30 days)
+- Cleaned and merged multiple CSVs (activity, sleep, weight logs)
+- Removed duplicates, invalid entries, and filled missing values where appropriate
+- Standardized timestamps and derived new features: activity buckets, sleep efficiency, and weekday usage patterns
 
 ---
 
-## Share (Power BI Visuals)
+## Analysis Highlights
+
+- Users who met or exceeded 10K steps/day had significantly higher sleep efficiency
+- Weekends had the highest levels of sedentary time across most users
+- Late-night device usage correlated with lower average sleep duration the following night
+- A subset of users showed strong adherence to routines, making them ideal targets for habit-streak features
+
+---
+
+## Strategic Insights
+
+Bellabeat can take action on several fronts:
+
+- **Habit Reinforcement Features:** Users with consistent behavior patterns may respond well to streak-based rewards or progress tracking visuals
+- **Sleep-Aware Nudges:** Push notifications could discourage device use late at night to improve sleep outcomes
+- **Activity-Based Segmentation:** Target low-movement users with gentle encouragement; reward highly active users with challenges
+- **Content Personalization:** Sleep-focused users may benefit from mindfulness/audio content integrations
+
+---
+
+## Key Takeaways
+
+- Behavioral data reveals lifestyle segments and opens doors for targeted engagement
+- Bellabeat can use usage patterns not only for user feedback but also for **product innovation**
+- This project demonstrates a real-world application of analytics to support wellness tech growth strategy
+
+---
+
+## Power BI Visuals
 
 Below are key dashboards created using Power BI. These visuals highlight:
 - Weekly trends in calories burned
@@ -109,8 +111,9 @@ Visualization: ![Activity_Level](Image/Activity_Groups_Per.jpg)
 The Power Bi Dashboard As Below:
 ![Dashoard](Image/Dashboard_Graph.jpg)
 
-Key Insights and Recommendations
-Encourage High-Intensity Activities: Promote short, intense workout routines to increase calorie burn and engagement.
-Weekday Challenges: Introduce weekday-specific challenges to maintain activity levels during workdays.
-Improve Sleep Quality: Focus on enhancing sleep quality through in-app sleep hygiene tips and reminders.
-Personalized Engagement: Segment users based on their activity levels and provide tailored challenges, rewards, and fitness goals.
+---
+
+## Contact
+
+Created by [Jake Ma](https://www.linkedin.com/in/jake-ma-0a4278282/)  
+Let’s connect if you’re hiring or want to discuss data-driven product strategy in health tech.
